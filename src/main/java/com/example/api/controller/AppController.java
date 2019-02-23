@@ -154,6 +154,7 @@ public class AppController {
 
 		result.setName(name);
 		result.setChildren(listBean);
+		result.setToggled(true);
 
 		return new ResponseEntity<>(result, HttpStatus.OK);
 	}

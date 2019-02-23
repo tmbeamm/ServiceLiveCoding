@@ -5,6 +5,15 @@ import java.util.List;
 public class TreeViewBean {
 	String name;
 	List<TreeViewBean> children;
+	boolean toggled;
+
+	public boolean isToggled() {
+		return toggled;
+	}
+
+	public void setToggled(boolean toggled) {
+		this.toggled = toggled;
+	}
 
 	public String getName() {
 		return name;
